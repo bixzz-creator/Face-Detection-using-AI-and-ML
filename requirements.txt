@@ -1,0 +1,36 @@
+
+
+`requirements.txt`
+
+
+# Core Requirements
+opencv-python
+numpy
+insightface
+onnxruntime
+pillow
+tk
+
+# Optional (used in GUI & file handling)
+matplotlib
+pandas
+
+# Used by YOLOv8 face detection (lindevs implementation)
+ultralytics
+
+# For exporting CSV logs and UI dialogs
+openpyxl
+```
+
+---
+
+💡 Instructions:
+
+1. Create a file named `requirements.txt` inside your `D:\IntelligentFaceTracker` directory.
+2. Paste the content above.
+3. Then, install everything using:
+
+bash
+
+pip install -r requirements.txt
+
